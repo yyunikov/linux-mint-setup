@@ -1,5 +1,5 @@
 # Linux Mint Setup
-Setup script which I've used for Linux Mint (cause be used for a lot of other distributions as well)
+Setup script which I've used for Linux Mint to install common used apps and tools (cause be used for a lot of other distributions as well)
 
 License
 =================
