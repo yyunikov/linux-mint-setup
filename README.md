@@ -7,7 +7,7 @@ To run the script, execute the following line in terminal:
 
 TODO
 =================
-Extend the script
+Extend the script, because it is not complete yet
 
 License
 =================
