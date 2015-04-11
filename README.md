@@ -1,5 +1,12 @@
 # Linux Mint Setup
-Setup script which I've used for Linux Mint to install common used apps and tools (cause be used for a lot of other distributions as well)
+Setup script which I've used after clean installation of Linux Mint to install common used apps and tools (can be used for a lot of other distributions as well)
+
+To run the script, execute the following line in terminal:
+
+`sh ./linux-mint-setup.sh`
+
+TODO
+Extend the script
 
 License
 =================
