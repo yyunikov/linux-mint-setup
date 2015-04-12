@@ -5,10 +5,6 @@ To run the script, execute the following line in terminal:
 
 `sh ./linux-mint-setup.sh`
 
-TODO
-=================
-Extend the script, because it is not complete yet
-
 License
 =================
 The MIT License (MIT)
