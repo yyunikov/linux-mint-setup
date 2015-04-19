@@ -21,6 +21,7 @@ sudo apt-fast -y install aptitude cowsay curl dpkg
 # auto repos
 sudo add-apt-repository -y ppa:cwchien/gradle
 sudo add-apt-repository -y ppa:git-core/ppa
+sudo add-apt-repository -y ppa:danielrichter2007/grub-customizer
 sudo add-apt-repository -y ppa:webupd8team/sublime-text-2
 sudo add-apt-repository -y ppa:webupd8team/java
 sudo apt-add-repository -y ppa:paolorotolo/android-studio
@@ -57,6 +58,9 @@ sudo apt-get install -y remmina remmina-plugin-rdp
 sudo apt-get install -y tlp tlp-rdw
 sudo tlp start
 
+# virtualbox
+sudo apt-get -y install virtualbox
+
 # build systems
 sudo apt-get -y install maven
 sudo apt-get -y install gradle
@@ -81,6 +85,9 @@ sudo apt-get -y install git-gui
 # google chrome
 sudo apt-get install -y google-chrome-stable
 sudo rm /etc/apt/sources.list.d/google-chrome.list
+
+# grub customizer
+sudo apt-get install grub-customizer
 
 cleanup
 
