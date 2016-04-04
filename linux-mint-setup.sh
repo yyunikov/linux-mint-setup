@@ -83,7 +83,7 @@ sudo apt-get -y install gitk
 sudo apt-get -y install git-gui
 
 # google chrome
-sudo apt-get install -y google-chrome-stable
+sudo aptitude -y install google-chrome-stable
 sudo rm /etc/apt/sources.list.d/google-chrome.list
 
 # grub customizer
