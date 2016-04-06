@@ -18,6 +18,10 @@ sudo apt-get -y install apt-fast
 # req to install
 sudo apt-fast -y install aptitude cowsay curl dpkg
 
+# mongodb package
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
+echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
+
 # auto repos
 sudo add-apt-repository -y ppa:cwchien/gradle
 sudo add-apt-repository -y ppa:git-core/ppa
@@ -88,6 +92,9 @@ sudo rm /etc/apt/sources.list.d/google-chrome.list
 
 # grub customizer
 sudo apt-get install grub-customizer
+
+# mongodb latest stable version
+sudo apt-get install -y mongodb-org
 
 cleanup
 
