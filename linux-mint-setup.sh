@@ -102,6 +102,11 @@ sudo apt-get -y install maven
 # tomcat7
 sudo apt-get -y install tomcat7
 
+# npm
+sudo apt-get -y install npm
+# grunt, gulp and bower
+npm install -g grunt-cli bower gulp
+
 cleanup
 
 cowsay "FINISHED"
