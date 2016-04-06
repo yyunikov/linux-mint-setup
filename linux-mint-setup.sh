@@ -96,6 +96,9 @@ sudo apt-get install grub-customizer
 # mongodb latest stable version
 sudo apt-get install -y mongodb-org
 
+# maven
+sudo apt-get install maven
+
 cleanup
 
 cowsay "FINISHED"
