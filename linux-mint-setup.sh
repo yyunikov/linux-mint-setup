@@ -91,13 +91,16 @@ sudo aptitude -y install google-chrome-stable
 sudo rm /etc/apt/sources.list.d/google-chrome.list
 
 # grub customizer
-sudo apt-get install grub-customizer
+sudo apt-get -y install grub-customizer
 
 # mongodb latest stable version
-sudo apt-get install -y mongodb-org
+sudo apt-get -y install mongodb-org
 
 # maven
-sudo apt-get install maven
+sudo apt-get -y install maven
+
+# tomcat7
+sudo apt-get -y install tomcat7
 
 cleanup
 
