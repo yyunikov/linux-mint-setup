@@ -49,8 +49,9 @@ sudo apt-get install -y gimp gimp-data gimp-plugin-registry gimp-data-extras
 # clementine player
 sudo apt-get install -y clementine
 
-# java 8
-sudo apt-get -y install oracle-java8-installer
+# java
+sudo apt-get -y install openjdk-7-jdk
+sudo apt-get -y install openjdk-8-jdk
 
 # android
 sudo apt-get -y install android-studio
