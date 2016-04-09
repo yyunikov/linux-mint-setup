@@ -112,6 +112,8 @@ sudo apt-get -y install tomcat7
 sudo apt-get -y install npm
 # grunt, gulp and bower
 sudo npm install -g grunt-cli bower gulp
+#jekyll
+sudo apt-get -y install jekyll
 
 cleanup
 
