@@ -32,6 +32,8 @@ sudo apt-add-repository -y ppa:paolorotolo/android-studio
 sudo add-apt-repository -y ppa:linrunner/tlp
 sudo add-apt-repository -y ppa:me-davidsansome/clementine
 sudo add-apt-repository -y ppa:transmissionbt/ppa
+sudo apt-get -y install software-properties-common
+sudo apt-add-repository ppa:brightbox/ruby-ng
 
 # no ppa reps
 sudo apt-add-repository -y "deb http://dl.google.com/linux/chrome/deb/ stable main"
@@ -110,10 +112,15 @@ sudo apt-get -y install tomcat7
 
 # npm
 sudo apt-get -y install npm
+
 # grunt, gulp and bower
 sudo npm install -g grunt-cli bower gulp
-#jekyll
-sudo apt-get -y install jekyll
+
+# ruby, gem, jekyll
+sudo apt-get -y install ruby2.3
+sudo apt-get -y install ruby2.3-dev
+sudo apt-get -y install gem
+sudo gem install jekyll
 
 cleanup
 
