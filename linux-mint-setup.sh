@@ -52,6 +52,11 @@ sudo apt-get install -y clementine
 # java
 sudo apt-get -y install openjdk-7-jdk
 sudo apt-get -y install openjdk-8-jdk
+# export java variables
+echo "export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64" >> ~/.profile
+echo "export JAVA7_HOME=/usr/lib/jvm/java-7-openjdk-amd64" >> ~/.profile
+echo "export JAVA8_HOME=/usr/lib/jvm/java-8-openjdk-amd64" >> ~/.profile
+echo "export PATH=$JAVA_HOME/bin:$PATH" >> ~/.profile
 
 # android
 sudo apt-get -y install android-studio
